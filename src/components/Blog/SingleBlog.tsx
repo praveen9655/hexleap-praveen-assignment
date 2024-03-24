@@ -9,7 +9,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
 
   return (
     <>
-      <div className="group relative overflow-hidden rounded-sm  " style={{backgroundImage: `url(${theme === "light" ? 'images/blog/bg-light.png' : 'images/blog/bg.png'})`, backgroundSize: "cover"}}>
+      <div className="group relative overflow-hidden rounded-sm   " style={{backgroundImage: `url(${theme === "light" ? 'images/blog/bg-light.png' : 'images/blog/bg.png'})`, backgroundSize: "cover"}}>
         <Link href="/" className="relative block aspect-[40/65] w-full">
           <Image src={image} alt="image" fill />
         </Link>
@@ -22,7 +22,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           <h6 className="mb-4 block text- font-light text-black hover:text-primary dark:text-white  sm:text-1xl">
             {time}
           </h6>
-          <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
+          <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-light text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
           <div className="inline-flex items-center">
