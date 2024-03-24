@@ -13,9 +13,8 @@ const SingleBlog = ({ blog2 }: { blog2: Blog2 }) => {
         >
           <Image src={image} alt="image" fill />
         </Link>
-        <div className="py-2" >
 
-  <h6>
+  <h6 className="mt-2">
     <Link
       href="/"
       className="font-medium"
@@ -23,21 +22,20 @@ const SingleBlog = ({ blog2 }: { blog2: Blog2 }) => {
       {title}
     </Link>
   </h6>
-  <table className="table-fixed group  bg-white  dark:bg-gray-900 mt-2">
-  <thead>
-    <tr>
-      <th className="w-1/2 px-2 py-2  font-light  text-xs">Total Events</th>
-      <th className="w-1/2 px-2 py-2  font-light text-xs">Sport</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td className="px-2 py-1 font-medium text-xs">48 Events</td>
-      <td className=" px-6 py-1  font-medium  text-xs">Baseball</td>
-    </tr>
+  <table className="table-fixed group bg-white dark:bg-gray-900 mt-2 w-full">
+    <thead>
+      <tr>
+        <th className="px-2 py-1 font-light text-xs">Total Events</th>
+        <th className="px-2 py-1 font-light text-xs">Sport</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="px-4 py-1 font-medium text-xs">48 Events</td>
+        <td className="px-4 py-1 font-medium text-xs">Baseball</td>
+      </tr>
     </tbody>
-</table>
-</div>
+  </table>
 
       </div>
       
