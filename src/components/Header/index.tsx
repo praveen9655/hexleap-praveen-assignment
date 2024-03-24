@@ -32,7 +32,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-6 xl:mr-12">
+            <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -55,13 +55,15 @@ const Header = () => {
                 />
               </Link>
             </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+            <div className=" w-full px-4">
+              <div className="flex  w-full items-center justify-end pr-16 lg:pr-0">
 
                 <div>
                   <ThemeToggler />
                 </div>
               </div>
-            
+
+            </div>
           </div>
         </div>
       </header>

@@ -42,7 +42,7 @@ const Carousel = () => {
             },
             // When window width is >= 768px (md)
             768: {
-              slidesPerView: 3,
+              slidesPerView: 2,
             },
             // When window width is >= 1024px (lg)
             1024: {
