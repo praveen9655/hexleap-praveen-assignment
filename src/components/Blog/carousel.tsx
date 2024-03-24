@@ -37,7 +37,7 @@ const Carousel = () => {
           autoplay={{ delay: 3000 }}
           breakpoints={{ // Breakpoints for responsive design
             // When window width is >= 640px (sm)
-            640: {
+            200: {
               slidesPerView: 1,
             },
             // When window width is >= 768px (md)
