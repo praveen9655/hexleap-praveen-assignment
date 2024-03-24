@@ -25,14 +25,14 @@ const SingleBlog = ({ blog2 }: { blog2: Blog2 }) => {
   <table className="table-fixed group bg-white dark:bg-gray-900 mt-2 w-full">
     <thead>
       <tr>
-        <th className="px-2 py-1 font-light text-xs">Total Events</th>
-        <th className="px-2 py-1 font-light text-xs">Sport</th>
+        <th className="px-2 py-1 font-light text-xs text-center">Total Events</th>
+        <th className="px-2 py-1 font-light text-xs text-center">Sport</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td className="px-4 py-1 font-medium text-xs">48 Events</td>
-        <td className="px-4 py-1 font-medium text-xs">Baseball</td>
+        <td className="px-4 py-1 font-medium text-xs text-center">48 Events</td>
+        <td className="px-4 py-1 font-medium text-xs text-center">Baseball</td>
       </tr>
     </tbody>
   </table>
